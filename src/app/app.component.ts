@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  text = 'toto je text';
+  
+   clickHandler() {
+    debugger;
+  this.text = 'uz to nieje text';
+  alert('sss');
+  }
 }
